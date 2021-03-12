@@ -7,7 +7,7 @@ import fire
 
 from candidate_models import get_activations
 from candidate_models.model_commitments import brain_translated_pool
-from candidate_models.model_commitments.model_layer_def import model_layers_pool
+from candidate_models.model_commitments.model_layer_def import model_layers as model_layers_pool
 from brainscore import score_model as score_model_function
 
 logger = logging.getLogger(__name__)
